@@ -5,7 +5,7 @@ int dis[MAXN][MAXN];
  
 void sol() {
 	cin >> n >> m;
-	MEM(dis, 0x3f);
+	memset(dis, 0x3f, sizeof(dis));
 	for (int i = 1; i <= n; i++)
 		dis[i][i] = 0;
 		
